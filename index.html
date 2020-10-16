@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Laptop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="main-nav">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i>Event</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="user-nav">
+        <ul class="nav-links">
+            <li id="new-request" class="active">New Request</li>
+            <li id="submitted-request">Submitted Request</li>
+        </ul>
+    </section>
+
+    <section class="devices">
+        <h4>Devices</h4>
+        <div class="device-content">
+            <div class="laptop">
+                <img src="./img/laptop1.jpg" alt="laptop1">
+                <p class="text-center" >Laptop</p>
+            </div>
+            <div class="mobile">
+                <img src="./img/mobile.jpg" alt="Mobile">
+                <p class="text-center">Mobile</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <h4><i class="fas fa-laptop"></i> Laptop Request <a class="change" href="#"><i class="fas fa-caret-left caret"></i>Change selection</a></h4>
+            <p>Employee Details:</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Employee name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Department name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <p>Request Details:</p>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Request Period</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Business Reason</label>
+                        <textarea type="text" class="form-control"></textarea>
+                    </div>
+                </div>
+                <p>Approvers:</p>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Line Manager</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="EmployeeName">Functional Detector</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <button class="btn btn-success btn-sm">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="form-1">
+        <h4 class="mobile-content"><i class="fas fa-mobile-alt"></i> Mobile Devices <a class="change1" href="#"><i class="fas fa-caret-left caret"></i>Change selection</a></h4>
+        <div class="mobile-div">
+            <div class="mobile-img1">
+                <img src="./img/mobile.jpg" alt="mobile">
+                <p class="text-center" >Sales DMS device</p>
+            </div>
+            <div class="mobile-img2">
+                <img src="./img/mobile.jpg" alt="mobile">
+                <p class="text-center" >Roaming Activation</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-2">
+        <div class="container">
+            <h4 class="mobile-content"><i class="fas fa-mobile-alt"></i> Mobile Devices <i class="fas fa-angle-right chevy"></i>Sales DMS Device <a class="changeForm2" href="#"><i class="fas fa-caret-left caret"></i>Change selection</a></h4>
+            <form>
+                <p>Employee Details:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Employee name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Department name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Designation</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                <p>Request Details:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Device Model/Specification</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Business Reason</label>
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="radio1" value="radio1">
+                        <label class="form-check-label" for="EmployeeName">New</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="radio1" value="radio1">
+                        <label class="form-check-label" for="EmployeeName">Replacement</label>
+                    </div>
+                    <p>Approvers:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Line Manager</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">HR Business Partner</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <button class="btn btn-success btn-sm">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="form-3">
+        <div class="container">
+            <h4 class="mobile-content"><i class="fas fa-mobile-alt"></i> Mobile Devices <i class="fas fa-angle-right chevy"></i>Roaming Activation <a class="changeForm3" href="#"><i class="fas fa-caret-left caret"></i>Change selection</a></h4>
+
+            <form>
+                <p>Employee Details:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Employee name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Employee Signature</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                <p>Request Details:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Departure Date</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Return Date</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Destination</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Phone Number</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <p>Will you be on leave during this period?</p>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="radio1" value="radio1">
+                        <label class="form-check-label" for="EmployeeName">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="radio1" value="radio1">
+                        <label class="form-check-label" for="EmployeeName">No</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Business Reason</label>
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <p>Approvers:</p>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="EmployeeName">Line Manager</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <button class="btn btn-success btn-sm">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="submitted">
+        <div class="container">
+            <table class="table table-bordered">
+                <thead class='thead-light'>
+                <tr>
+                    <th scope='col'>Name</th>
+                    <th scope='col'>Role</th>
+                    <th scope='col'>Education</th>
+                    <th scope='col'>Email Address</th>
+                </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4992479f02.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

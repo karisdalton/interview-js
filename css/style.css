@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.main-nav{
+    width: 12rem;
+}
+
+.navigation{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 100vh;
+}
+
+.navigation li{
+    background-color: #fff;
+    padding: .5rem;
+    font-size: 1rem;
+    margin: .2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation li .fas{
+    padding-right: 1rem;
+}
+
+.navigation li a{
+    color: brown;
+    text-decoration: none;
+}
+
+
+.user-nav{
+    position: absolute;
+    top: 0;
+    margin-left: 12rem;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+}
+
+.nav-links li{
+    padding: .5rem .5rem .3rem .5rem;
+    margin-left: 1rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-links li.active{
+    border-bottom: 2px solid orange;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li a:hover{
+    text-decoration: none;
+}
+
+.devices{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+}
+
+.device-content{
+    display: flex;
+}
+
+.devices .laptop{
+    width: 30rem;
+    height: 23rem;
+    border-radius: 8px;
+    background: contain left top no-repeat;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.devices .laptop p{
+    font-size: 2rem;
+}
+
+.devices .laptop img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.devices .mobile{
+    width: 30rem;
+    height: 23rem;
+    border-radius: 8px;
+    background: contain left top no-repeat;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.devices .mobile p{
+    font-size: 2rem;
+}
+
+.devices .mobile img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.caret{
+    margin-right: .2rem;
+}
+
+.form{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+}
+
+.form .container{
+    width: 80rem;
+}
+
+.form .container a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.form-1{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+}
+
+.form-2{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+}
+
+.chevy{
+    margin-right: .5rem;
+}
+
+.form-2 .container{
+    width: 80rem;
+}
+
+.form-3{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+    width: 60rem;
+}
+
+.form-3 .container{
+    width: 80rem;
+    margin-bottom: 2rem;
+}
+
+.mobile-div{
+    display: flex;
+    border-radius: 8px 8px 0 0;
+}
+
+.mobile-img1{
+    width: 20rem;
+    height: 17rem;
+    border-radius: 8px;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.mobile-img2{
+    width: 20rem;
+    height: 17rem;
+    border-radius: 8px;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.mobile-img1 img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.mobile-img2 img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.mobile-img1 p{
+    font-weight: 600;
+}
+
+.mobile-img2 p{
+    font-weight: 600;
+}
+
+.mobile-content a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.submitted{
+    position: absolute;
+    top: 4rem;
+    left: 13rem;
+}
+
+.submitted .container{
+    width: 80rem;
+}

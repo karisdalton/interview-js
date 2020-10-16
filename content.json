@@ -1,0 +1,52 @@
+{
+    "requesters": [
+        {
+            "name": "John Doe",
+            "role": "Database Administrator",
+            "education": "College",
+            "email_address": "john.doe@mail.com"
+        },
+        {
+            "name": "Jane Doe",
+            "role": "Finance Manager",
+            "education": "University",
+            "email_address": "jane.doe@mail.com"
+        },
+        {
+            "name": "Steve Bush",
+            "role": "Lawyer",
+            "education": "Law School",
+            "email_address": "steve_bush@mail.com"
+        },
+        {
+            "name": "Hannington Kane",
+            "role": "Pro Golfer",
+            "education": "College",
+            "email_address": "hann-kane@mail.com"
+        },
+        {
+            "name": "Camila Valdez",
+            "role": "Interior Designer",
+            "education": "College",
+            "email_address": "valdez-designs@mail.com"
+        },
+        {
+            "name": "Susan Reid",
+            "role": "Senate Rep, Dade County",
+            "education": "University",
+            "email_address": "reidsusan-rep@mail.com"
+        },
+        {
+            "name": "Nicolas King",
+            "role": "Ranch Owner, Farmer",
+            "education": "College",
+            "email_address": "nick_king@mail.com"
+        },
+        {
+            "name": "Jason Brown",
+            "role": "Pro Athlete",
+            "education": "College",
+            "email_address": "jbrown@mail.com"
+        }
+    ]
+}
