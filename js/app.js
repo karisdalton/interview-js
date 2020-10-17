@@ -50,54 +50,54 @@ function requests() {
       form3.style.display = "none";
       submitted.style.display = "block";
 
-      // // AJAX
-      // let xhttp = new XMLHttpRequest();
-      // xhttp.open(
-      //   "GET",
-      //   "https://recruitmentfiles.blob.core.windows.net/practicals/index-json.json "
-      // );
+      // AJAX
+      let xhttp = new XMLHttpRequest();
+      xhttp.open(
+        "GET",
+        "https://recruitmentfiles.blob.core.windows.net/practicals/index-json.json "
+      );
 
-      // xhttp.onload = () => {
-      //   let myData = JSON.parse(xhttp.responseText);
+      xhttp.onload = () => {
+        let myData = JSON.parse(xhttp.responseText);
 
-      //   for (let i = 0; i < myData.requesters.length; i++) {
-      //     let row = document.createElement("tr");
-      //     row.innerHTML = `
-      //     <td>${myData.requesters[i].name}</td>
-      //     <td>${myData.requesters[i].role}</td>
-      //     <td>${myData.requesters[i].education}</td>
-      //     <td>${myData.requesters[i].email_address}</td>
-      // `;
+        for (let i = 0; i < myData.requesters.length; i++) {
+          let row = document.createElement("tr");
+          row.innerHTML = `
+          <td>${myData.requesters[i].name}</td>
+          <td>${myData.requesters[i].role}</td>
+          <td>${myData.requesters[i].education}</td>
+          <td>${myData.requesters[i].email_address}</td>
+      `;
 
-      //     tbody.append(row);
-      //   }
-      // };
+          tbody.append(row);
+        }
+      };
 
-      // xhttp.send();
+      xhttp.send();
 
       // JSON
-      fetch("./content.json")
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          for (let i = 0; i < data.requesters.length; i++) {
-            let row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${data.requesters[i].name}</td>
-                <td>${data.requesters[i].role}</td>
-                <td>${data.requesters[i].education}</td>
-                <td>${data.requesters[i].email_address}</td>
-            `;
+//       fetch("./content.json")
+//         .then((response) => {
+//           return response.json();
+//         })
+//         .then((data) => {
+//           for (let i = 0; i < data.requesters.length; i++) {
+//             let row = document.createElement("tr");
+//             row.innerHTML = `
+//                 <td>${data.requesters[i].name}</td>
+//                 <td>${data.requesters[i].role}</td>
+//                 <td>${data.requesters[i].education}</td>
+//                 <td>${data.requesters[i].email_address}</td>
+//             `;
 
-            tbody.append(row);
-          }
-        })
-        .catch((error) => {
-          console.error(
-            "Something went wrong with retrieving the data!" + error
-          );
-        });
+//             tbody.append(row);
+//           }
+//         })
+//         .catch((error) => {
+//           console.error(
+//             "Something went wrong with retrieving the data!" + error
+//           );
+//         });
 
       submittedRequest.classList.add("active");
       newRequest.classList.remove("active");
