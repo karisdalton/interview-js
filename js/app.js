@@ -64,7 +64,7 @@ function requests() {
       //     let row = document.createElement("tr");
       //     row.innerHTML = `
       //     <td>${myData.requesters[i].name}</td>
-      //     <td>${myata.requesters[i].role}</td>
+      //     <td>${myData.requesters[i].role}</td>
       //     <td>${myData.requesters[i].education}</td>
       //     <td>${myData.requesters[i].email_address}</td>
       // `;
